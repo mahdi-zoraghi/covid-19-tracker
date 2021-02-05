@@ -1,6 +1,6 @@
 import { Card, CardContent, Typography } from "@material-ui/core"
 
-import "./InfoBox.css"
+import "./InfoBox.scss"
 
 function InfoBox({ title, cases, isRed, active, total, ...props }) {
   return (

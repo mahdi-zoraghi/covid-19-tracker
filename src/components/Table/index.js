@@ -1,6 +1,6 @@
 import numeral from "numeral"
 
-import "./Table.css"
+import "./Table.scss"
 
 function Table({ countries }) {
   return (

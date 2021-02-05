@@ -7,16 +7,16 @@ import {
   CardContent,
 } from "@material-ui/core"
 
-import InfoBox from "./InfoBox"
-import Map from "./Map"
-import Table from "./Table"
-import LineGraph from "./LineGraph"
+import InfoBox from "./components/InfoBox"
+import Map from "./components/Map"
+import Table from "./components/Table"
+import LineGraph from "./components/LineGraph"
 
 import { sortData, prettyPrintStat } from "./util"
 
 import "leaflet/dist/leaflet.css"
 
-import "./App.css"
+import "./App.scss"
 
 function App() {
   const [countries, setCountries] = useState([])

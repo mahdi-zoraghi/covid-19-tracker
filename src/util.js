@@ -17,17 +17,14 @@ const casesTypeColors = {
   cases: {
     hex: "#CC1034",
     multiplier: 800,
-    // multiplier: 500,
   },
   recovered: {
     hex: "#7dd71d",
     multiplier: 1200,
-    // multiplier: 700,
   },
   deaths: {
     hex: "#fb4443",
     multiplier: 2000,
-    // multiplier: 1100,
   },
 }
 export const showDataOnMap = (data, casesType = "cases") =>
